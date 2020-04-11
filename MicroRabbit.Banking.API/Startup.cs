@@ -10,6 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using MicroRabbit.Infra.IoC;
+using MicroRabbit.Banking.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace MicroRabbit.Banking.API
 {
@@ -25,7 +28,18 @@ namespace MicroRabbit.Banking.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<BankingDbContext>(option => {
+                option.UseSqlServer(Configuration.GetConnectionString("BankingDbConnection"));
+            }
+                );
+            
             services.AddControllers();
+            RegisterServices(services);
+        }
+
+        private void RegisterServices(IServiceCollection services)
+        {
+            DependencyContainer.RegisterServices(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
