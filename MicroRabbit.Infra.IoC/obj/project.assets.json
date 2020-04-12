@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "MediatR/8.0.1": {
+      "MediatR/7.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/MediatR.dll": {}
@@ -1396,7 +1396,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "MediatR": "8.0.1"
+          "MediatR": "7.0.0"
         },
         "compile": {
           "bin/placeholder/MicroRabbit.Domain.Core.dll": {}
@@ -1409,7 +1409,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "MediatR": "8.0.1",
+          "MediatR": "7.0.0",
           "MicroRabbit.Domain.Core": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
           "RabbitMQ.Client": "5.1.2"
@@ -1424,19 +1424,16 @@
     }
   },
   "libraries": {
-    "MediatR/8.0.1": {
-      "sha512": "nqtv05FHNNNLmEv4QN9pRtmSLa0bnDPciOjLKpA/k5FZIVS72vPyY3/1lHQ9V/dcQSMA5ZLig62SyRk2cSKNBA==",
+    "MediatR/7.0.0": {
+      "sha512": "sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
       "type": "package",
-      "path": "mediatr/8.0.1",
+      "path": "mediatr/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "gradient_128x128.png",
         "lib/net461/MediatR.dll",
-        "lib/net461/MediatR.xml",
         "lib/netstandard2.0/MediatR.dll",
-        "lib/netstandard2.0/MediatR.xml",
-        "mediatr.8.0.1.nupkg.sha512",
+        "mediatr.7.0.0.nupkg.sha512",
         "mediatr.nuspec"
       ]
     },

@@ -1,7 +1,0 @@
-C:\Users\Joao\Documents\Microservices\MicroRabbit\MicroRabbit.Banking.Domain\bin\Debug\netcoreapp3.1\MicroRabbit.Banking.Domain.deps.json
-C:\Users\Joao\Documents\Microservices\MicroRabbit\MicroRabbit.Banking.Domain\bin\Debug\netcoreapp3.1\MicroRabbit.Banking.Domain.dll
-C:\Users\Joao\Documents\Microservices\MicroRabbit\MicroRabbit.Banking.Domain\bin\Debug\netcoreapp3.1\MicroRabbit.Banking.Domain.pdb
-C:\Users\Joao\Documents\Microservices\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp3.1\MicroRabbit.Banking.Domain.AssemblyInfoInputs.cache
-C:\Users\Joao\Documents\Microservices\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp3.1\MicroRabbit.Banking.Domain.AssemblyInfo.cs
-C:\Users\Joao\Documents\Microservices\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp3.1\MicroRabbit.Banking.Domain.dll
-C:\Users\Joao\Documents\Microservices\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp3.1\MicroRabbit.Banking.Domain.pdb
