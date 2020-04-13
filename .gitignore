@@ -34,3 +34,19 @@ MicroRabbit.Banking.API/obj/
 MicroRabbit.Banking.API/bin/Debug/
 
 MicroRabbit.Infra.IoC/obj/
+
+MicroRabbit.Transfer.Domain/bin/Debug/
+
+MicroRabbit.Transfer.Domain/obj/
+
+MicroRabbit.Transfer.Data/bin/
+
+MicroRabbit.Transfer.Data/obj/
+
+MicroRabbit.Transfer.Application/bin/
+
+MicroRabbit.Transfer.Application/obj/
+
+MicroRabbit.Transfer.API/bin/
+
+MicroRabbit.Transfer.API/obj/
