@@ -7,9 +7,13 @@ using MicroRabbit.Banking.Data.Repository;
 using MicroRabbit.Banking.Data.Context;
 using MicroRabbit.Infra.Bus;
 
+using MediatR;
+using MicroRabbit.Banking.Domain.Commands;
+using MicroRabbit.Banking.Domain.CommandHandlers;
+
 namespace MicroRabbit.Infra.IoC
 {
-   public class DependencyContainer
+    public class DependencyContainer
     {
         public static void RegisterServices(IServiceCollection services)
         {
@@ -21,6 +25,10 @@ namespace MicroRabbit.Infra.IoC
             services.AddTransient<IAccountRepository, AccountRepository>();
             services.AddTransient<BankingDbContext>();
 
+            //IOC for command handlers tranfer
+            //Domain Banking commands 
+            services.AddTransient<IRequestHandler<CreateTransferCommand, bool>, TranferCommandHandler>();
+
         }
-    }   
+    }
 }

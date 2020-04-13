@@ -32,3 +32,5 @@ MicroRabbit.Banking.Application/obj/
 MicroRabbit.Banking.API/obj/
 
 MicroRabbit.Banking.API/bin/Debug/
+
+MicroRabbit.Infra.IoC/obj/

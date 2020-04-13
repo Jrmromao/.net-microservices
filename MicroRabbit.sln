@@ -35,7 +35,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Banking.Data", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Banking.Domain", "MicroRabbit.Banking.Domain\MicroRabbit.Banking.Domain.csproj", "{F69206BB-9421-4B73-A774-FF729294987C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Banking.API", "MicroRabbit.Banking.API\MicroRabbit.Banking.API.csproj", "{833FC256-0DB6-4D12-85FB-2842B773DF65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Banking.API", "MicroRabbit.Banking.API\MicroRabbit.Banking.API.csproj", "{833FC256-0DB6-4D12-85FB-2842B773DF65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
